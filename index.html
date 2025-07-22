@@ -3,114 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Nombre - Portafolio de Programador Java</title>
+    <title>Tu Nombre - Portafolio de Programación</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Teko:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background-shapes"></div>
+    <!-- Este div crea el patrón de fondo de líneas diagonales -->
+    <div class="background-pattern"></div>
+
     <header>
-        <div class="container">
-            <h1>Tu Nombre</h1>
-            <p class="subtitle">Estudiante de Programación Java | Analista de Datos en Formación</p>
+        <div class="header-content">
+            <!-- REEMPLAZA CON LA URL DE TU IMAGEN DE PERFIL -->
+            <img src="URL_DE_TU_IMAGEN_DE_PERFIL" alt="Foto de Perfil" class="profile-pic">
+            <div class="header-text">
+                <!-- REEMPLAZA CON TU NOMBRE -->
+                <h1>TU NOMBRE</h1>
+                <p>Estudiante de Programación Java & Analista de Datos</p>
+            </div>
         </div>
     </header>
 
     <main class="container">
         <section id="sobre-mi">
-            <h2>Sobre Mí</h2>
-            <div class="content">
-                <img src="URL_DE_TU_IMAGEN_DE_PERFIL" alt="Tu Foto de Perfil" class="profile-pic">
-                <p>
-                    ¡Hola! Soy un apasionado estudiante de programación con dos años de experiencia, especializado en el ecosistema de Java. Mi fascinación por las matemáticas me ha llevado a explorar con entusiasmo estructuras de datos como matrices y vectores, y disfruto el desafío de construir soluciones eficientes y robustas. Tengo una sólida experiencia en el desarrollo de API REST, utilizando herramientas como IntelliJ IDEA, NetBeans y Visual Studio Code para dar vida a mis proyectos.
-                    <br><br>
-                    Además de Java, me defiendo con Python y estoy ampliando mis horizontes en el mundo de la analítica de datos. Herramientas como Postman, phpMyAdmin y diversas bases de datos forman parte de mi día a día, permitiéndome no solo escribir código, sino también comprender y analizar la información que este maneja. Me considero una persona curiosa, siempre en busca de aprender nuevas tecnologías y mejorar mis habilidades.
-                </p>
+            <div class="section-title-container">
+                <h2 class="section-title"><span>SOBRE MÍ</span></h2>
             </div>
+            <p>
+                ¡Hola! Soy un apasionado estudiante de programación con dos años de experiencia, especializado en el ecosistema de Java. Mi fascinación por las matemáticas se traduce en mi gusto por las matrices, vectores y el desarrollo de API REST robustas. Mi objetivo es crear soluciones lógicas y eficientes.
+                <br><br>
+                Además de Java, me defiendo con Python y estoy profundizando en la analítica de datos. Utilizo herramientas como IntelliJ IDEA, NetBeans, VS Code, Postman y phpMyAdmin para dar vida a mis proyectos y analizar la información que estos manejan.
+            </p>
         </section>
 
         <section id="habilidades">
-            <h2>Habilidades Técnicas</h2>
+            <div class="section-title-container">
+                <h2 class="section-title"><span>HABILIDADES</span></h2>
+            </div>
             <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Lenguajes de Programación</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>Python (Básico)</li>
-                        <li>SQL</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Frameworks y Tecnologías</h3>
-                    <ul>
-                        <li>Spring Boot (para API REST)</li>
-                        <li>Hibernate</li>
-                        <li>Maven</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Herramientas y Entornos</h3>
-                    <ul>
-                        <li>IntelliJ IDEA</li>
-                        <li>NetBeans</li>
-                        <li>Visual Studio Code</li>
-                        <li>Git y GitHub</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Bases de Datos y Análisis</h3>
-                    <ul>
-                        <li>MySQL (con phpMyAdmin)</li>
-                        <li>Postman</li>
-                        <li>Análisis de datos en Excel</li>
-                    </ul>
-                </div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">API REST</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Bases de Datos</div>
+                <div class="skill-item">Postman</div>
+                <div class="skill-item">phpMyAdmin</div>
+                <div class="skill-item">IntelliJ IDEA</div>
+                <div class="skill-item">Git & GitHub</div>
             </div>
         </section>
 
         <section id="proyectos">
-            <h2>Mis Proyectos</h2>
+            <div class="section-title-container">
+                <h2 class="section-title"><span>PROYECTOS</span></h2>
+            </div>
             <div class="projects-grid">
                 <!-- Proyecto 1 -->
                 <div class="project-card">
+                    <!-- REEMPLAZA CON LA IMAGEN DE TU PROYECTO -->
                     <img src="URL_DE_LA_IMAGEN_DEL_PROYECTO_1" alt="Imagen del Proyecto 1">
                     <div class="project-info">
                         <h3>Nombre del Proyecto 1</h3>
-                        <p>Una breve descripción de tu proyecto. Explica qué problema resuelve y qué tecnologías utilizaste.</p>
-                        <a href="(URL del repositorio)" target="_blank" class="repo-link">Ver Repositorio</a>
+                        <p>Breve descripción del proyecto. Explica qué tecnologías usaste y qué problema resuelve.</p>
+                        <!-- REEMPLAZA CON LA URL DE TU REPOSITORIO -->
+                        <a href="(URL del repositorio)" target="_blank" class="repo-button"><span>Ver Código</span></a>
                     </div>
                 </div>
 
                 <!-- Proyecto 2 -->
                 <div class="project-card">
+                    <!-- REEMPLAZA CON LA IMAGEN DE TU PROYECTO -->
                     <img src="URL_DE_LA_IMAGEN_DEL_PROYECTO_2" alt="Imagen del Proyecto 2">
                     <div class="project-info">
                         <h3>Nombre del Proyecto 2</h3>
-                        <p>Otra descripción interesante de uno de tus trabajos. Puedes hablar sobre los desafíos que enfrentaste.</p>
-                        <a href="(URL del repositorio)" target="_blank" class="repo-link">Ver Repositorio</a>
+                        <p>Otra descripción. Habla sobre los desafíos y lo que aprendiste al desarrollarlo.</p>
+                        <!-- REEMPLAZA CON LA URL DE TU REPOSITORIO -->
+                        <a href="(URL del repositorio)" target="_blank" class="repo-button"><span>Ver Código</span></a>
                     </div>
                 </div>
                 
-                <!-- Añade más proyectos aquí -->
-
-            </div>
-        </section>
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Puedes encontrarme en las siguientes plataformas:</p>
-            <div class="contact-links">
-                <a href="TU_LINKEDIN" target="_blank">LinkedIn</a>
-                <a href="TU_GITHUB" target="_blank">GitHub</a>
-                <a href="mailto:TU_CORREO">Email</a>
+                <!-- Añade más tarjetas de proyecto aquí si lo necesitas -->
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>© 2025 Tu Nombre. Diseñado con inspiración en Atlus.</p>
+        <div class="contact-links">
+             <!-- REEMPLAZA CON TUS ENLACES -->
+            <a href="TU_LINKEDIN" target="_blank">LinkedIn</a>
+            <a href="TU_GITHUB" target="_blank">GitHub</a>
+            <a href="mailto:TU_CORREO">Email</a>
         </div>
+        <p>© 2025 Tu Nombre. Estilo inspirado en Atlus.</p>
     </footer>
+
 </body>
 </html>
